@@ -61,10 +61,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <!-- header lists -->
                     <ul>
                         @*<li class="text-center border-right text-white">
-            <a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
-                <i class="fas fa-map-marker mr-2"></i>Select Location
-            </a>
-        </li>*@
+                                <a class="play-icon popup-with-zoom-anim text-white" href="#small-dialog1">
+                                    <i class="fas fa-map-marker mr-2"></i>Select Location
+                                </a>
+                            </li>*@
+
 
                         <li class="text-center border-right text-white">
                             <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
@@ -87,7 +88,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                         <li class="text-center border-right text-white">
                             <a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
-                                <i class="fas fa-user-alt mr-2"></i> Admin
+                                <i class="fas fa-user mr-2"></i> Admin
                             </a>
                         </li>
 
@@ -478,6 +479,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="clearfix"></div>
         </div>
     </div>
+
     <!-- //shop locator (popup) -->
     <!-- modals -->
     <!-- log in -->
@@ -548,6 +550,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <label class="col-form-label">Confirm Password</label>
                             <input type="password" class="form-control" placeholder=" " name="Confirm Password" id="password2" required="">
                         </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Gender</label>
+                            <input type="text" class="form-control" placeholder=" " name="Gender" required="">
+                        </div>
                         <div class="right-w3l">
                             <input type="submit" class="form-control" value="Register">
                         </div>
@@ -575,7 +581,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <img src="~/Content/images/logo2.png" alt=" " class="img-fluid">Electro Store
 
                         </a>
-                       </h1>
+                    </h1>
                 </div>
                 <!-- //logo -->
                 <!-- header-bot -->
@@ -811,6 +817,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
             </nav>
         </div>
+    </div>
+
+
+    <div>
+        @RenderBody();
     </div>
     <!-- //navigation -->
     <!-- banner -->
@@ -1578,9 +1589,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
-    <div>
-        @RenderBody();
-    </div>
+
 
     <!-- middle section -->
     <!-- footer -->
@@ -2129,7 +2138,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //smooth-scrolling-of-move-up -->
     <!-- for bootstrap working -->
     <script src="~/Content/js/bootstrap.js"></script>
-   <!-- //for bootstrap working -->
+    <!-- //for bootstrap working -->
     <!-- //js-files -->
 </body>
 
